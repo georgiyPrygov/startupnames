@@ -103,7 +103,7 @@ const Home: NextPage = () => {
         return (<>
                 <div className={styles.main__title}>
                     <h1>AI based<br/> domain names generator</h1>
-                    <p>Get suggestions for your startup domain and check it's availability</p>
+                    <p>Get suggestions for your startup domain and check it&#39;s availability</p>
                 </div>
                 <div className={styles.main__search}>
                     <CreatableMultiselect

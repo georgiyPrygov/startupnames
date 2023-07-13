@@ -1,9 +1,15 @@
 import React from "react";
-import * as styles from "./Button.module.scss";
+import styles from "./Button.module.scss";
 import { ButtonPropsType, ButtonSize, ButtonStatus } from "@/components/Button/Button.types";
 import classNames from "classnames";
 
-const Button = ({ label, onClick, disabled, size = ButtonSize.medium, status = ButtonStatus.default }: ButtonPropsType) => {
+const Button = ({
+                    label,
+                    onClick,
+                    disabled,
+                    size = ButtonSize.medium,
+                    status = ButtonStatus.default
+                }: ButtonPropsType) => {
     return (
         <button className={classNames(`${styles.button__primary}`, {
             [styles.button__primary_small]: size === ButtonSize.small,

@@ -1,9 +1,10 @@
 import React from "react";
 import { IKeywordOption } from "@/types/Search.types";
 import CreatableSelect from "react-select/creatable";
-import * as styles from "./CreatableMultiselect.module.scss";
+import styles from "./CreatableMultiselect.module.scss";
+import { ICreatableMultiselectProps } from "@/components/CreatableMultiselect/CreatableMultiselect.types";
 
-const CreatableMultiselect = ({ options, setValueOnChange, selectedValues }) => {
+const CreatableMultiselect = ({ options, setValueOnChange, selectedValues }: ICreatableMultiselectProps) => {
 
     const onSelectChange = (allOptions: IKeywordOption[], action) => {
         switch (action.action) {
