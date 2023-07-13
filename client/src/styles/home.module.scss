@@ -1,0 +1,45 @@
+@import "variables";
+
+.main {
+  &__title {
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 100px;
+
+    h1 {
+      font-size: 68px;
+      line-height: 1.2;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: white;
+      margin: 0 0 24px 0;
+      @media (max-width: 800px) {
+        font-size: 48px;
+      }
+    }
+
+    p {
+      font-size: 24px;
+      line-height: 32px;
+      margin: 0 0 48px 0;
+    }
+  }
+
+  &__search {
+    max-width: 740px;
+    margin: 64px auto 64px 0;
+    display: flex;
+    gap: 20px;
+    @media (max-width: 600px) {
+      display: grid;
+    }
+  }
+
+  &__data {
+    &__columns {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+      grid-gap: 20px;
+    }
+  }
+}

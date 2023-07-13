@@ -1,0 +1,14 @@
+@import "src/styles/variables";
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  &__logo {
+    font-weight: bold;
+    color: white;
+      span {
+        color: $mainblue;
+      }
+  }
+}

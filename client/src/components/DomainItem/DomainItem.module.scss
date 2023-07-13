@@ -1,0 +1,61 @@
+@import "src/styles/variables";
+
+.domain__item {
+  border: 1px solid $bordercolor;
+  border-radius: 3px;
+  background-color: $maingray;
+  flex: 0 0 calc(33% - 8px);
+  @media (max-width: 800px) {
+    flex: 0 0 calc(50% - 16px);
+  }
+  @media (max-width: 600px) {
+    flex: 0 0 100%;
+  }
+
+  &__title {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    cursor: pointer;
+
+    &_opened {
+      svg {
+        transform: rotate(180deg);
+      }
+    }
+
+    svg {
+      fill: white;
+    }
+
+    &:hover {
+      background-color: $bordercolor;
+    }
+  }
+
+  &__preloader {
+    height: 18px;
+    width: calc(100% - 20px);
+    border-radius: 3px;
+    background: $bordercolor;
+    background: linear-gradient(110deg, $bordercolor 8%, #a9b0b8 18%, $bordercolor 33%);
+    background-size: 200% 100%;
+    animation: 1.5s shine linear infinite;
+    margin: 10px;
+    box-sizing: border-box;
+    @keyframes shine {
+      to {
+        background-position-x: -200%;
+      }
+    }
+  }
+
+  &__subitems {
+    display: grid;
+    min-height: 120px;
+  }
+}
