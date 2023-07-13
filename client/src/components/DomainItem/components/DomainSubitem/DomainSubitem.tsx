@@ -2,7 +2,7 @@ import React from "react";
 import { IDomainSubitemProps } from "@/components/DomainItem/components/DomainSubitem/DomainSubitem.types";
 import Button from "@/components/Button/Button";
 import { ButtonSize, ButtonStatus } from "@/components/Button/Button.types";
-import * as styles from "./DomainSubitem.module.scss";
+import styles from "./DomainSubitem.module.scss";
 
 const DomainSubitem = ({ item }: IDomainSubitemProps) => {
 

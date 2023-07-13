@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import * as styles from "./DomainItem.module.scss";
+import styles from "./DomainItem.module.scss";
 import { IDomainItemProps } from "@/components/DomainItem/DomainItem.types";
 import { ISingleDomain } from "@/api/availability/availability.types";
 import { tldsList } from "@/resources/tldsList";

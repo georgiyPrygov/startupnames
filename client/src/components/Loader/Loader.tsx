@@ -1,5 +1,5 @@
 import React from "react";
-import * as styles from "./Loader.module.scss"
+import styles from "./Loader.module.scss"
 import { ILoaderProps } from "@/components/Loader/Loader.types";
 
 const Loader = ({text}: ILoaderProps) => {

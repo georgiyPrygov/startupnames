@@ -1,5 +1,5 @@
 import { NextPage } from "next";
-import * as styles from "../styles/home.module.scss";
+import styles from "../styles/home.module.scss";
 import React, { useEffect, useMemo, useState } from "react";
 import { IKeywordOption } from "@/types/Search.types";
 import Button from "@/components/Button/Button";

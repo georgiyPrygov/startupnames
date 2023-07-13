@@ -1,5 +1,5 @@
 import React from "react";
-import * as styles from "./DataColumn.module.scss";
+import styles from "./DataColumn.module.scss";
 import DomainItem from "@/components/DomainItem/DomainItem";
 
 const DataColumn = ({ title, items, isLoading }) => {

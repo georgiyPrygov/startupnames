@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useState } from "react";
-import * as styles from "./MainDomain.module.scss";
+import styles from "./MainDomain.module.scss";
 import { IMainDomainProps } from "@/components/MainDomain/MainDomain.types";
 import Button from "@/components/Button/Button";
 import classNames from "classnames";
