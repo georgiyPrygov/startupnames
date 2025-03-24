@@ -2,6 +2,10 @@
 
 An AI-powered domain name generator for startups and businesses. This application helps users discover available domain names by leveraging OpenAI's GPT models and checking domain availability through GoDaddy's API.
 
+## Live Demo
+
+Check out the live application at [startupnames.vercel.app](https://startupnames.vercel.app/)
+
 ## Features
 
 - Generate domain name suggestions based on keywords
@@ -45,7 +49,3 @@ An AI-powered domain name generator for startups and businesses. This applicatio
 ## Deployment
 
 This project is configured for deployment on Vercel. Simply connect your GitHub repository to Vercel and add your environment variables in the Vercel dashboard.
-
-## License
-
-[MIT](LICENSE)

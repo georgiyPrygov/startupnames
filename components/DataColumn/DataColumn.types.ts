@@ -1,4 +1,4 @@
-import { ISingleDomain } from "@/api/availability/availability.types";
+import { ISingleDomain } from "@/services/availability/availability.types";
 
 export type DataColumnPropsType = {
     title: string;

@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import styles from "./DomainItem.module.scss";
 import { IDomainItemProps } from "@/components/DomainItem/DomainItem.types";
-import { ISingleDomain } from "@/api/availability/availability.types";
+import { ISingleDomain } from "@/services/availability/availability.types";
 import { tldsList } from "@/resources/tldsList";
-import { getDomainsAvailability } from "@/api/availability/availability.api";
+import { getDomainsAvailability } from "@/services/availability/availability.api";
 import DomainSubitem from "@/components/DomainItem/components/DomainSubitem/DomainSubitem";
 import { SVG } from "@/assets/SVG";
 import classNames from "classnames";

@@ -9,10 +9,10 @@ import CreatableMultiselect from "@/components/CreatableMultiselect/CreatableMul
 import { combinateWords } from "@/utils/wordsCombinator";
 import { isDomain } from "@/utils/isDomainVerify";
 import MainDomain from "@/components/MainDomain/MainDomain";
-import { getSingleDomainAvailability } from "@/api/availability/availability.api";
+import { getSingleDomainAvailability } from "@/services/availability/availability.api";
 import { ButtonSize } from "@/components/Button/Button.types";
-import { ISingleDomain } from "@/api/availability/availability.types";
-import { generateFirstResults } from "@/api/generator/generator.api";
+import { ISingleDomain } from "@/services/availability/availability.types";
+import { generateFirstResults } from "@/services/generator/generator.api";
 import { trimmTextToArray } from "@/utils/aiResultsTrimmer";
 import { keywordsOptions } from "@/resources/keywordsOptions";
 import { removeTlds } from "@/utils/removeTlds";
