@@ -16,7 +16,7 @@ Check out the live application at [startupnames.vercel.app](https://startupnames
 
 ## Tech Stack
 
-- **Frontend**: Next.js, React, SCSS
+- **Frontend**: Next.js, React, SCSS, Typescript, RestAPI
 - **API Integration**: OpenAI API, GoDaddy API
 - **Hosting**: Vercel
 
@@ -24,8 +24,8 @@ Check out the live application at [startupnames.vercel.app](https://startupnames
 
 ### Prerequisites
 
-- Node.js (v14.17.0 or higher recommended)
-- npm or yarn
+- Node.js
+- npm
 - API keys for OpenAI and GoDaddy
 
 ### Installation
@@ -45,7 +45,3 @@ Check out the live application at [startupnames.vercel.app](https://startupnames
    ```
    npm run dev
    ```
-
-## Deployment
-
-This project is configured for deployment on Vercel. Simply connect your GitHub repository to Vercel and add your environment variables in the Vercel dashboard.
