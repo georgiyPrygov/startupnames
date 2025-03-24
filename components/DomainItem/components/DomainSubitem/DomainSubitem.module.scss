@@ -1,0 +1,14 @@
+@import "@/styles/variables";
+
+.domain__subitem {
+  background-color: $darkgray;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  cursor: pointer;
+  &:hover {
+    background-color: rgba(255,255,255,0.01);
+  }
+}
